@@ -1,0 +1,190 @@
+header,section,footer{
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    height: 100px;
+    background-color: cadetblue;
+}
+#section_pg1{
+    height: 1400px;
+    background-color: rgb(71, 174, 243);
+}
+footer{
+    height: 300px;
+    background-color: bisque;
+}
+/***********************************************/
+#img_marca{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#bot_menu{
+    width: 400px;
+    height: 50px;
+    background-color: cyan;
+    float: left;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+#bot_social{
+    width: 300px;
+    height: 50px;
+    background-color: darkslateblue;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+
+/***********************************************/
+#img_pres{
+    width: 940px;
+    height: 450px;
+    background-color: rgb(20, 220, 187);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#txt_pres{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(30, 44, 80);
+    float: left;
+    margin-left: 10px;
+    margin-top: 290px;
+}
+#img_serv1{
+    width: 350px;
+    height: 250px;
+    background-color: crimson;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#txt_serv1{
+    width: 350px;
+    height: 250px;
+    background-color: tomato;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#link_serv1{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(157, 185, 32);
+    float: left;
+    margin-left: 10px;
+    margin-top: 190px;
+}
+#img_serv2{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(236, 29, 236);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#img_serv3{
+    width: 465px;
+    height: 250px;
+    background-color: rgb(194, 21, 128);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#txt_serv2{
+    width: 350px;
+    height: 250px;
+    background-color: rgb(241, 132, 7);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#link_serv2{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(91, 247, 1);
+    float: left;
+    margin-left: 10px;
+    margin-top: 190px;
+}
+#txt_serv3{
+    width: 465px;
+    height: 250px;
+    background-color: rgb(255, 229, 82);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.link_button{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(12, 173, 47);
+    float: left;
+    margin-left: 10px;
+    margin-top: 190px;
+}
+#txt_partner{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(126, 124, 123);
+    clear: left;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#img_partner{
+    width: 800px;
+    height: 80px;
+    background-color: rgb(43, 26, 18);
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10px;
+}
+#main_banner{
+    position: relative;
+    width: 220px;
+    height: 510px;
+    background-color: blueviolet;
+    left: 730px;
+    top: 470px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/***********************************************/
+#contacto{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(89, 119, 96);
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#links{
+    width: 450px;
+    height: 200px;
+    background-color: rgb(96, 153, 109);
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#rights{
+    width: 800px;
+    height: 50px;
+    background-color: rgb(173, 128, 37);
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
