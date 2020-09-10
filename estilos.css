@@ -1,13 +1,17 @@
-header,section,footer{
+header,section,footer{/*header,section,footer*/
     width: 960px;
     margin-right: auto;
     margin-left: auto;
 }
 header{
     height: 100px;
-    /*background-color: cadetblue;*/
+    background-color: cadetblue;
 }
 #section_pg1{
+    height: 1400px;
+    background-color: rgb(71, 174, 243);
+}
+#section_pg2{
     height: 1400px;
     background-color: rgb(71, 174, 243);
 }
@@ -16,7 +20,7 @@ footer{
     background-color: bisque;
 }
 /***********************************************/
-#img_marca{
+.img_marca{
     /*height: 80px;
     width: 80px;
     background-color: blue;*/
@@ -24,7 +28,7 @@ footer{
     margin-top: 10px;
     margin-left: 10px;
 }
-#bot_menu{
+.bot_menu{
 
     width: 400px;
     height: 50px;
@@ -33,10 +37,10 @@ footer{
     margin-top: 25px;
     margin-left: 80px;
 }
-#bot_menu ul li{
+.bot_menu ul li{
     display: inline;;
 }
-#bot_menu ul li a{
+.bot_menu ul li a{
     display: inline-block;
     width: 80px;
     height: 40px;
@@ -46,7 +50,7 @@ footer{
     padding-top: 10px;
     margin-left: 10px;
 }
-#bot_social{
+.bot_social{
     width: 300px;
     height: 50px;
     background-color: rgb(61, 139, 129);
@@ -54,10 +58,10 @@ footer{
     margin-top: 25px;
     margin-right: 10px;
 }
-#bot_social ul li{
+.bot_social ul li{
     display: inline;
 }
-#bot_social ul li a{
+.bot_social ul li a{
     display: inline-block;
     width: 90px;
     height: 40px;
