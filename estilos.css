@@ -1,4 +1,5 @@
-header,section,footer{/*header,section,footer*/
+/****************Secciones principales************/
+header,section,footer{
     width: 960px;
     margin-right: auto;
     margin-left: auto;
@@ -12,7 +13,11 @@ header{
     background-color: rgb(71, 174, 243);
 }
 #section_pg2{
-    height: 1400px;
+    height: 400px;
+    background-color: rgb(71, 174, 243);
+}
+#section_pg3{
+    height: 1240px;
     background-color: rgb(71, 174, 243);
 }
 footer{
@@ -32,7 +37,7 @@ footer{
 
     width: 400px;
     height: 50px;
-    background-color: cyan;
+    /*background-color: cyan;*/
     float: left;
     margin-top: 25px;
     margin-left: 80px;
@@ -76,7 +81,10 @@ footer{
 #img_pres{
     width: 940px;
     height: 450px;
-    background-color: rgb(20, 220, 187);
+    /*background-color: rgb(20, 220, 187);*/
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
@@ -84,7 +92,7 @@ footer{
 #fondo_pg1{
     position: absolute;
     width: 940px;
-    height: 450px;
+    /*height: 450px;*/
 }
 #txt_pres{
     position: absolute;
@@ -99,14 +107,17 @@ footer{
 #img_serv1{
     width: 350px;
     height: 250px;
-    background-color: crimson;
+    /*background-color: crimson;*/
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 }
 #img_s1{
+    
+    
     width: 350px;
-    height: 250px;
+    /*height: 250px;*/
+    
 }
 #txt_serv1{
     position: relative;
@@ -132,7 +143,7 @@ footer{
 #img_serv2{
     width: 350px;
     height: 250px;
-    background-color: rgb(236, 29, 236);
+    /*background-color: rgb(236, 29, 236);*/
     float: left;
     margin-left: 10px;
     margin-top: 10px;
@@ -140,15 +151,15 @@ footer{
 #img_serv3{
     width: 465px;
     height: 250px;
-    background-color: rgb(194, 21, 128);
+    /*background-color: rgb(194, 21, 128);*/
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 #img_s2{
-    width: 465px;
-    height: 250px;
+    width: 350px;
+    /*height: 250px;*/
 }
 
 #txt_serv2{
@@ -184,8 +195,10 @@ footer{
     margin-top: 10px;
 }
 #img_s3{
-    width: 465px;
+    /*width: 465px;*/
     height: 250px;
+    margin-left: 100px;
+    
 }
 .link_button{
     position: absolute;
@@ -256,4 +269,105 @@ footer{
     margin-left: auto;
     margin-right: auto;
     
+}
+/*****************Pagina contacto******************************/
+#contacto_img{
+    width: 450px;
+    height: 300px;
+    background-color:rgb(102, 201, 77);
+    float: left;
+    margin-left: 20px;
+}
+#contacto_img img{
+    width: 300px;
+    margin-left: 75px;
+}
+#contacto_form{
+    width: 450px;
+    height: 300px;
+    background-color:rgb(18, 139, 123);
+    float: left;
+    margin-left: 20px;
+}
+#contacto_form form ul{
+    list-style-type: none;
+}
+/*******************Pagina nosotros****************************/
+#img_pres_3{
+    width: 940px;
+    height: 400px;
+    background-color: rgb(20, 220, 187);
+    background-image: url(nosotros.jpg);
+    background-size: cover;
+    background-position: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.contenido_nos{
+    width: 940px;
+    height: 400px;
+    background-color: rgb(78, 90, 88);
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#txt_pres_3up{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(253, 253, 255,0.5);
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;/*290*/
+    /*box-sizing: border-box;*/
+    border-radius: 10px;
+}
+#txt_pres_3up p{
+    margin: 0px;
+    font-size: 14px;
+}
+
+#txt_pres_3down{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(253, 253, 255,0.5);
+    float: left;
+    margin-left: 10px;
+    margin-top: 220px;/*290*/
+    border-radius: 10px;
+}
+#txt_pres_3down p{
+    margin: 0px;
+    font-size: 14px;
+}
+.contenido_nos .letrero{
+    position: absolute;
+    text-align: center;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(253, 253, 253);
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px;/*290*/
+    border-radius: 20px;
+    box-shadow: 5px 10px 7px rgba(160, 163, 158, 0.5);
+}
+
+.contenido_nos .tex_letrero{
+    /*position: absolute;*/
+    text-align: center;
+    width: 700px;
+    height: 200px;
+    background-color: rgb(121, 153, 223);
+    /*clear: both;
+    float: left;*/
+    margin-left: auto;
+    margin-right: auto;/*290*/
+    margin-top: 140px;
+    box-sizing: border-box;
+    padding: 40px;
 }

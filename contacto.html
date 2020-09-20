@@ -12,8 +12,8 @@
             </div>
             <nav class="bot_menu">
                 <ul style="list-style-type: none; margin: 0px; padding: 0px;">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
                     <li><a href="#">Servicios</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
@@ -28,18 +28,42 @@
         </header>
         <section id="section_pg2">
             <h3>Comuniquese con nosotros</h3>
-            <form method="POST" action="#">
-                <ul>
-                    <li>Nombre: <input type="text" name="nombre"></li>
-                    <li>Email: <input type="email" name="correo"></li>
-                    <li>Teléfono: <input type="tel" name="telefono" required></li>
-                    <li>Mensaje: <textarea name="mensaje" rows="6" cols="40"></textarea></li>
-                    <li><input type="submit"></li>
-                </ul>
-            </form>
+            <div id="contacto_form">
+                <form method="POST" action="#">
+                    <ul>
+                        <li>Nombre: <input type="text" name="nombre" required></li>
+                        <li>Email: <input type="email" name="correo" required></li>
+                        <li>Teléfono: <input type="tel" name="telefono" required></li>
+                        <li>Mensaje: <textarea name="mensaje" rows="6" cols="40" required></textarea></li>
+                        <li><input type="submit"></li>
+                    </ul>
+                </form>
+            </div>
+            <div id="contacto_img">
+                <img src="mapa.jpg">
+            </div>
         </section>
         <footer>
-
+            <div id="contacto">
+                <h3>Contactos</h3>
+                <ul style="list-style-type: none; margin: 0px; padding: 0px;">
+                    <li>Telf. 4588-2871 / 4583-8734 / 1557469755 </li>
+                    <li>Cucha Cucha 2678, CP(1416, C.A.B.A)</li>
+                    <li>info@rodimax.com.ar www.rodimax.com.ar</li>
+                </ul>
+            </div>
+            <div id="links">
+                <h3>Sobre nosotros</h3>
+                <ul style="list-style-type: none; margin: 0px; padding: 0px;">
+                    <li>Nuestros servicios</li>
+                    <li>Nuestro equipo</li>
+                    <li>Localización</li>
+                    <li>Trabaja con nosotros</li>
+                </ul>
+            </div>
+            <div id="rights">
+                <p>Copyright© 2020 Todos los derechos reservados</p>
+            </div>
         </footer>
     </body>
 </html>
