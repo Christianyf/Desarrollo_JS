@@ -6,7 +6,8 @@ header,section,footer{
 }
 header{
     height: 100px;
-    background-color: cadetblue;
+    background-color: rgb(95, 158, 160);
+    border-radius: 10px;
 }
 #section_pg1{
     height: 1400px;
@@ -15,6 +16,8 @@ header{
 #section_pg2{
     height: 400px;
     background-color: rgb(71, 174, 243);
+    padding: 5px;
+    box-sizing: border-box;
 }
 #section_pg3{
     height: 1240px;
@@ -26,23 +29,22 @@ header{
 }
 footer{
     height: 300px;
-    background-color: bisque;
+    background:-moz-linear-gradient(top,#5f9ea0 , #2c2c2c);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#65b6cf), to(#2c2c2c));
 }
 /****************Página principal************************/
 .img_marca{
-    /*height: 80px;
-    width: 80px;
-    background-color: blue;*/
     float: left;
     margin-top: 10px;
     margin-left: 10px;
 }
 .bot_menu{
-
     width: 400px;
     height: 50px;
-    /*background-color: cyan;*/
     float: left;
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
+    font-weight: bold;
     margin-top: 25px;
     margin-left: 80px;
 }
@@ -53,19 +55,25 @@ footer{
     display: inline-block;
     width: 80px;
     height: 40px;
-    /*background-color: coral;*/
+    border-radius: 10px;
     text-align: center;
     text-decoration: none;
     padding-top: 10px;
     margin-left: 10px;
+}
+.bot_menu ul li a:hover{
+    background-color: #65b6cf;
 }
 .bot_social{
     width: 300px;
     height: 50px;
     background-color: rgb(61, 139, 129);
     float: right;
+    font-family:'Lobster Two', cursive ;
+    font-weight: bold;
     margin-top: 25px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 .bot_social ul li{
     display: inline;
@@ -74,190 +82,253 @@ footer{
     display: inline-block;
     width: 90px;
     height: 40px;
-    /*background-color: brown;*/
     text-align: center;
     padding-top: 10px;
     text-decoration: none;
     margin-left: 5px;
+    border-radius: 10px;
+}
+.bot_social ul li a:hover{
+    background-color: #65b6cf;;
 }
 
 /***********************************************/
 #img_pres{
     width: 940px;
     height: 450px;
-    /*background-color: rgb(20, 220, 187);*/
     background-image: url(3.jpg);
     background-size: cover;
     background-position: center;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 #fondo_pg1{
     position: absolute;
     width: 940px;
-    /*height: 450px;*/
 }
 #txt_pres{
     position: absolute;
     text-align: center;
-    /*width: 400px;
-    height: 150px;
-    background-color: rgb(30, 44, 80);*/
+    font-family:'Lobster Two', cursive ;
+    font-size: xx-large;
     float: left;
     margin-left: 10px;
-    margin-top: 290px;/*290*/
+    margin-top: 100px;
 }
 #img_serv1{
     width: 350px;
     height: 250px;
-    /*background-color: crimson;*/
+    background-color: rgb(78, 90, 88);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-}
-#img_s1{
-    
-    
-    width: 350px;
-    /*height: 250px;*/
-    
+    background-image: url(serv1.png);
+    border-radius: 10px;
+    background-size: cover;
 }
 #txt_serv1{
     position: relative;
     text-align: center;
     width: 350px;
     height: 250px;
-    background-color: tomato;
+    background-color:rgb(121, 153, 223);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    /*z-index: 0;*/
+    padding: 10px;
+    border-radius: 0 20px 20px 0;
+    box-sizing: border-box;
 }
+#txt_serv1 h3{
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
+}
+
 #link_serv1{
     position: relative;
-    width: 100px;
-    height: 50px;
-    background-color: rgb(157, 185, 32);
+    width: 80px;
+    height: 40px;
+    background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
     margin-top: auto;
-    /*z-index: 1;*/
+    padding-top: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 #img_serv2{
     width: 350px;
     height: 250px;
-    /*background-color: rgb(236, 29, 236);*/
+    background-color: rgb(78, 90, 88);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    background-image: url(serv2.jpg);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 #img_serv3{
     width: 465px;
     height: 250px;
-    /*background-color: rgb(194, 21, 128);*/
+    background-color: rgb(78, 90, 88);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    background-image: url(serv3.jpg);
+    border-radius: 10px;
+    background-size: cover;
 }
-#img_s2{
-    width: 350px;
-    /*height: 250px;*/
-}
-
 #txt_serv2{
     position: relative;
     text-align: center;
     width: 350px;
     height: 250px;
-    background-color: rgb(241, 132, 7);
+    background-color: rgb(121, 153, 223);
     float: left;
     margin-left: 10px;
     margin-top: 10px;
-    
+    padding: 5px;
+    border-radius: 20px 0px 0px 20px;
+    box-sizing: border-box;
+}
+#txt_serv2 h3{
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
 }
 #link_serv2{
     position: absolute;
-    width: 100px;
-    height: 50px;
-    background-color: rgb(91, 247, 1);
+    width: 80px;
+    height: 40px;
+    background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
-    /*margin-top: auto;*/
     top: 190px;
-    /*z-index: 1;/*algo raro pasa respecto a la primera!*/
+    padding-top: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 #txt_serv3{
     position: relative;
     text-align: center;
     width: 465px;
     height: 250px;
-    background-color: rgb(255, 229, 82);
+    background-color: rgb(121, 153, 223);
     float: left;
+    padding: 10px;
     margin-left: 10px;
     margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 0 20px 20px 0;
+}
+#txt_serv3 h3{
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
 }
 #img_s3{
-    /*width: 465px;*/
     height: 250px;
     margin-left: 100px;
-    
 }
 .link_button{
     position: absolute;
-    width: 100px;
-    height: 50px;
-    background-color: rgb(12, 173, 47);
+    width: 80px;
+    height: 40px;
+    background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
     top: 190px;
-    /*margin-top: 190px;*/
+    padding-top: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 #txt_partner{
     text-align: center;
     width: 400px;
     height: 50px;
-    /*background-color: rgb(126, 124, 123);*/
+    background-color: rgb(126, 124, 123);
     clear: left;
     margin-left: auto;
     margin-right: auto;
-
+    margin-top: 0px;
+    padding-top: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
 }
 #img_partner{
     width: 800px;
     height: 80px;
-    background-color: rgb(43, 26, 18);
+    background-color: rgb(121, 153, 223);;
     margin-left: auto;
     margin-right: auto; 
     margin-top: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+#img_partner ul{
+    margin: 0px;
+    list-style-type: none;
+}
+#img_partner ul li{
+    display: inline;
+} 
+#img_partner ul li p{
+    display:inline-block;
+    width: 230px;
+    font-family:'Lobster Two', cursive ;
+    font-size: large;
 }
 #main_banner{
-    position: relative;
+    position: absolute;
+    text-align: center;
+    font-size: xx-large;
     width: 220px;
     height: 510px;
-    background-color: blueviolet;
-    left: 730px;
-    top: 470px;
+    background-color: rgb(121, 153, 223);
+    font-family:'Lobster Two', cursive ;
+    left: 928px;
+    top: 570px;
+    padding: 25px;
     margin-right: 10px;
     margin-top: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
+@keyframes movimiento-texto {
+    from {
+       color:rgb(15, 86, 219);
+    }
+    
+    to {
+       color:rgb(223, 13, 223);
+    }
+ }
+ #main_banner h2{
+   animation-name: movimiento-texto;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+    position: relative;
+ } 
 
 /***********************************************/
 #contacto{
-    text-align: right;
+    text-align: center;
     width: 450px;
     height: 200px;
-    background-color: rgb(89, 119, 96);
     float: left;
     margin-left: 20px;
     margin-top: 10px;
 }
 #links{
-    text-align: left;
+    text-align: center;
     width: 450px;
     height: 200px;
-    background-color: rgb(96, 153, 109);
     float: left;
     margin-right: 20px;
     margin-top: 10px;
@@ -266,13 +337,10 @@ footer{
 }
 #rights{
     text-align: center;
-    /*width: 800px;
-    height: 50px;
-    background-color: rgb(173, 128, 37);*/
+    background-color: rgb(61, 139, 129);
     clear: both;
     margin-left: auto;
     margin-right: auto;
-    
 }
 /*****************Pagina contacto******************************/
 #contacto_img{
@@ -296,6 +364,11 @@ footer{
 #contacto_form form ul{
     list-style-type: none;
 }
+#section_pg2 h3{
+    text-align: center;
+    font-family:'Lobster Two', cursive ;
+    font-size: xx-large;
+}
 /*******************Pagina nosotros****************************/
 #img_pres_3{
     width: 940px;
@@ -307,6 +380,7 @@ footer{
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 .contenido_nos{
     width: 940px;
@@ -324,9 +398,15 @@ footer{
     background-color: rgba(253, 253, 255,0.5);
     float: left;
     margin-left: 10px;
-    margin-top: 30px;/*290*/
-    /*box-sizing: border-box;*/
+    margin-top: 30px;
+    padding: 10px;
+    box-sizing: border-box;
     border-radius: 10px;
+}
+#txt_pres_3up h3{
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
+    margin: 0px;
 }
 #txt_pres_3up p{
     margin: 0px;
@@ -341,8 +421,15 @@ footer{
     background-color: rgba(253, 253, 255,0.5);
     float: left;
     margin-left: 10px;
-    margin-top: 220px;/*290*/
+    margin-top: 220px;
     border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#txt_pres_3down h3{
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
+    margin: 0px;
 }
 #txt_pres_3down p{
     margin: 0px;
@@ -356,24 +443,29 @@ footer{
     background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
-    margin-top: 30px;/*290*/
+    margin-top: 30px;
+    padding: 5px;
+    box-sizing: border-box;
     border-radius: 20px;
     box-shadow: 5px 10px 7px rgba(160, 163, 158, 0.5);
+    font-family:'Lobster Two', cursive ;
+    font-size: x-large;
+}
+.contenido_nos .letrero h3{
+    margin: 0px;
 }
 
 .contenido_nos .tex_letrero{
-    /*position: absolute;*/
     text-align: center;
     width: 700px;
     height: 200px;
     background-color: rgb(121, 153, 223);
-    /*clear: both;
-    float: left;*/
     margin-left: auto;
-    margin-right: auto;/*290*/
+    margin-right: auto;
     margin-top: 140px;
     box-sizing: border-box;
     padding: 40px;
+    border-radius: 20px;
 }
 /*******************Pagina servicios****************************/
 #img_pres_4{
@@ -382,24 +474,13 @@ footer{
     background-color: rgb(20, 220, 187);
     background-image: url(servicios.jpg);
     background-size: cover;
-    /*background-position: center;*/
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    border-radius: 10px;
 }
-/*#anima_4{
-    width: 450px;
-    height: 100px;
-    background-color: rgba(253, 253, 255,0.5);
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-    /*box-sizing: border-box;*/
-    /*border-radius: 10px;
-/*}*/
 
 .contenido_nos .letrero_pg4{
-    /*position: absolute;*/
     text-align: center;
     font-family:'Lobster Two', cursive ;
     font-size: x-large;
@@ -408,7 +489,7 @@ footer{
     background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
-    margin-top: 20px;/*290*/
+    margin-top: 20px;
     border-radius: 20px;
 }
 .contenido_nos .letrero_pg4 h3{
@@ -421,18 +502,17 @@ footer{
     clear: both;
     float: left;
     font-family: 'Baloo Tammudu 2', cursive;
-    /*font-size: large;*/
     text-align: center;
     margin-top: 50px;
     margin-left: 10px;
+    padding: 5px;
     box-sizing: border-box;
+    border-radius: 20px;
 }
 .contenido_nos .img_letrero_pg4_1{
-    /*position: absolute;*/
     width: 450px;
     height: 300px;
     background-color: rgb(33, 56, 107);
-    /*clear: both;*/
     background-image: url(control_pg4.jpg);
     background-size: cover;
     background-position: center;
@@ -442,11 +522,9 @@ footer{
     border-radius: 10px;
 }
 .contenido_nos .img_letrero_pg4_2{
-    /*position: absolute;*/
     width: 450px;
     height: 300px;
     background-color: rgb(33, 56, 107);
-    /*clear: both;*/
     background-image: url(tanques_lim.jpg);
     background-size: cover;
     background-position: center;
@@ -456,11 +534,9 @@ footer{
     border-radius: 10px;
 }
 .contenido_nos .img_letrero_pg4_3{
-    /*position: absolute;*/
     width: 450px;
     height: 300px;
     background-color: rgb(33, 56, 107);
-    /*clear: both;*/
     background-image: url(matafuego_man.jpg);
     background-size: cover;
     background-position: center;
@@ -470,11 +546,9 @@ footer{
     border-radius: 10px;
 }
 .contenido_nos .img_letrero_pg4_4{
-    /*position: absolute;*/
     width: 450px;
     height: 300px;
     background-color: rgb(33, 56, 107);
-    /*clear: both;*/
     background-image: url(desratizacion.jpg);
     background-size: cover;
     background-position: center;
@@ -484,11 +558,9 @@ footer{
     border-radius: 10px;
 }
 .contenido_nos .img_letrero_pg4_5{
-    /*position: absolute;*/
     width: 450px;
     height: 300px;
     background-color: rgb(33, 56, 107);
-    /*clear: both;*/
     background-image: url(otros.jpg);
     background-size: cover;
     background-position: center;
@@ -504,7 +576,7 @@ footer{
 	width:1px;
 	}
 	to {
-		left:10px;/*100*/
+		left:10px;
 		background-color:#06C;
 		width:500px;
 	}
@@ -515,9 +587,7 @@ footer{
 	background-color:#06C;
     position:relative;
     left: 10px;
-    /*left:100px;*/
     border-radius: 5px;
-    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
     font-family:'Lobster Two', cursive;
     font-size: xx-large;
     text-align: center;
@@ -528,14 +598,230 @@ footer{
 	animation-direction:alternate;
 }
 #anima_4 h3{
-   
     text-shadow: 
     1px 1px 0px rgba(230,230,230,1), 
     2px 2px 0px rgba(200,200,200,1), 
     3px 3px 0px rgba(180,180,180,1), 
     4px 4px 0px rgba(160,160,160,1), 
-    /*Añadimos*/ 
     5px 5px 0px rgba(0,0,0,1), 
     8px 8px 20px rgba(0,0,0,0.5);
-    
 }
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/****************************Responsive desing****************************/
+@media all and (min-width:600px) and (max-width:1023px){
+    header,section,footer{
+        width: 580px;
+    }
+
+    #section_pg1{
+        height: 2050px;
+    }
+    #section_pg2{
+        height: 730px;
+    }
+    #section_pg4{
+        height: 2320px;
+       
+    }
+
+    /****************Página principal************************/
+    .bot_menu{
+        margin-left: 25px;
+    }
+    .bot_social{
+        display: none;
+    }
+    /*.bot_social{
+        width: 300px;
+        height: 50px;
+        background-color: rgb(61, 139, 129);
+        float: right;
+        font-family:'Lobster Two', cursive ;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-right: 10px;
+        border-radius: 10px;
+    }
+    .bot_social ul li{
+        display: inline;
+    }
+    .bot_social ul li a{
+        display: inline-block;
+        width: 90px;
+        height: 40px;
+        text-align: center;
+        padding-top: 10px;
+        text-decoration: none;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .bot_social ul li a:hover{
+        background-color: #65b6cf;;
+    }*/
+    
+    /***********************************************/
+    #img_pres{
+        width: 560px;
+    }
+    #txt_pres{
+        margin-top: 150px;
+    }
+    #img_serv1{
+        margin-left: 110px;
+    }
+    #txt_serv1{
+        width: 560px;
+        height: 200px;
+        border-radius: 20px;
+    }
+  
+    #img_serv2{
+        margin-left: 110px;
+    }
+    #img_serv3{
+        width: 350px;
+        margin-left: 110px;
+    }
+    #txt_serv2{
+        width: 560px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    #link_serv2{
+        top: 150px;
+    }
+    #txt_serv3{
+     
+        width: 560px;
+        height: 200px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+ 
+    .link_button{
+        top: 150px;
+    }
+    
+    #img_partner{
+        width: 560px;
+    }
+    
+  
+    #img_partner ul li p{
+        width: 160px;
+        font-size: 16px;
+    }
+    #main_banner{
+        display: none;
+    }
+    /***********************************************/
+    #contacto{
+        
+        width: 560px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    #links{
+        
+        width: 560px;
+        height: 150px;
+        margin-bottom: 0px;
+    }
+
+    /*****************Pagina contacto******************************/
+    #contacto_img{
+        margin-left: 60px;
+    }
+ 
+    #contacto_form{
+        margin-left: 60px;
+        margin-bottom: 10px;
+    }
+    /*******************Pagina nosotros****************************/
+    #img_pres_3{
+        width: 560px;
+    }
+    .contenido_nos{
+        width: 560px;
+    }
+    #txt_pres_3up{
+        width: 540px;
+        height: 100px;
+        margin-top: 170px;
+    }   
+    #txt_pres_3down{
+ 
+        width: 540px;
+        height: 115px;
+        margin-top: 280px;
+    }
+
+    .contenido_nos .letrero{
+        margin-left: 80px;
+    }
+    
+    .contenido_nos .tex_letrero{
+        width: 540px;
+        padding: 30px;
+    }
+    /*******************Pagina servicios****************************/
+    #img_pres_4{
+        width: 560px;
+        height: 250px;/*400*/
+    }
+
+    .contenido_nos .letrero_pg4{
+        margin-left: 70px;
+        margin-top: 5px;
+    }
+
+    .contenido_nos .tex_letrero_pg4{
+        width: 540px;
+        height: 100px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .contenido_nos .img_letrero_pg4_1{
+        height: 230px;
+        /*margin-top: 0px;*/
+        margin-left: 60px;
+    }
+    .contenido_nos .img_letrero_pg4_2{
+        height: 230px;
+        margin-left: 60px;
+    }
+    .contenido_nos .img_letrero_pg4_3{
+        height: 230px;
+        margin-left: 60px;
+    }
+    .contenido_nos .img_letrero_pg4_4{
+        height: 230px;
+        margin-left: 60px;
+    }
+    .contenido_nos .img_letrero_pg4_5{
+        height: 230px;
+        margin-left: 60px;
+    }
+    @keyframes ejemplo {
+        from {
+        left:30px;
+        background-color:#F30;
+        width:1px;
+        }
+        to {
+            left:30px;
+            background-color:#06C;
+            width:500px;
+        }
+    }
+    #anima_4{
+      
+        left: 30px;
+       
+    }
+
+}/*Fin primer media*/
