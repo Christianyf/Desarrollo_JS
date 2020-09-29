@@ -200,13 +200,14 @@ footer{
     font-size: x-large;
 }
 #link_serv2{
-    position: absolute;
+    position: relative;
     width: 80px;
     height: 40px;
     background-color: rgb(253, 253, 253);
     float: left;
     margin-left: 10px;
-    top: 190px;
+    /*top: 190px;*/
+    /*margin-top: auto;*/
     padding-top: 8px;
     border-radius: 10px;
     box-sizing: border-box;
@@ -691,7 +692,7 @@ footer{
     }
 
     #link_serv2{
-        top: 150px;
+        /*top: 150px;*/
     }
     #txt_serv3{
      
@@ -825,3 +826,281 @@ footer{
     }
 
 }/*Fin primer media*/
+/*************************************************************************/
+/*************************************************************************/
+/*************************************************************************/
+/****************************Responsive desing****************************/
+@media all and (max-width:599px){
+    header,section,footer{
+        width: 90%;
+    }
+    header{
+        height: auto;
+    }
+    #section_pg1{
+        height: auto;
+      
+    }
+    #section_pg2{
+        height: auto;
+    }
+    #section_pg3{
+        height: auto;
+        
+    }
+    #section_pg4{
+        height: auto;
+    }
+    footer{
+        height: auto;
+        
+    }
+    /****************Página principal************************/
+    .img_marca{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-left: 35%;
+      
+    }
+    .bot_menu{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .bot_menu ul li{
+        display: block;
+    }
+    .bot_menu ul li a{
+        padding: 20px 15px;
+        width: 100%;
+        box-sizing: border-box;
+        height: auto;
+        margin-left: 0px;
+    }
+    .bot_social{
+        display: none;
+    }
+
+    /***********************************************/
+    #img_pres{
+        position: relative;
+        width: 95%;
+        height: 300px;
+        float: none;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #txt_pres{
+        font-size: x-large;
+    }
+
+    #img_serv1{
+        width: 95%;
+        height: 160px;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    #txt_serv1{
+        width: 95%;
+        height: auto;
+        border-radius: 20px;
+    }
+    
+    #img_serv2{
+        width: 95%;
+        height: 180px;
+    }
+    #img_serv3{
+        width: 95%;
+        height: 180px;
+    }
+
+    #txt_serv2{
+        width: 95%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    #txt_serv3{
+        width: 95%;
+        height: auto;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+  
+    .link_button{
+        position: relative;
+        top: 0px;
+
+    }
+    #txt_partner{
+
+        width: 95%;
+        height: auto;
+    }
+    #img_partner{
+        width: 95%;
+        height: auto;
+    }
+
+    #img_partner ul li p{
+        text-align: center;
+        width: 95%;
+    }
+    #main_banner{
+        display: none;
+    }
+
+    /***********************************************/
+    #contacto{
+        width: 95%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #links{
+       
+        width: 95%;
+        height: auto;
+        
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    /*****************Pagina contacto******************************/
+    #contacto_img{
+        width: 95%;
+        height: auto;
+        margin-left: 10px;
+    }
+    #contacto_img img{
+        width: 95%;
+        margin-left: 10px;
+    }
+    #contacto_form{
+        width: 95%;
+        height: auto;
+        margin-left: 10px;
+    }
+    #section_pg2 h3{
+        
+        font-size: x-large;
+    }
+    /*******************Pagina nosotros****************************/
+    #img_pres_3{
+        width: 95%;
+        height: 400px;
+        
+    }
+    .contenido_nos{
+        width: 95%;
+        height: auto;
+        
+    }
+    #txt_pres_3up{
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-left: 5px;
+    }
+    #txt_pres_3down{
+
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-left: 5px;
+    }
+    .contenido_nos .letrero{
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-left: 5px;
+        font-size: large;
+    }
+    .contenido_nos .tex_letrero{
+        width: 95%;
+        height: auto;
+        margin-top: 100px;
+    }
+    /*******************Pagina servicios****************************/
+    #img_pres_4{
+        width: 95%;
+        height: 300px;
+        background-size: 207%;
+        float: left;
+    }
+    
+    .contenido_nos .letrero_pg4{
+        font-size: large;
+        width: 95%;
+        height: auto;
+        float: none;
+    }
+ 
+    .contenido_nos .tex_letrero_pg4{
+        width: 95%;
+        height: auto;
+        float: none;
+        font-family:'Times New Roman', Times, serif;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .contenido_nos .img_letrero_pg4_1{
+        width: 95%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contenido_nos .img_letrero_pg4_2{
+        width: 95%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contenido_nos .img_letrero_pg4_3{
+        width: 95%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contenido_nos .img_letrero_pg4_4{
+        width: 95%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .contenido_nos .img_letrero_pg4_5{
+        width: 95%;
+        height: 200px;
+        float: none;
+        margin-bottom: 10px;
+    }
+    @keyframes ejemplo {
+        from {
+        left:10px;
+        background-color:#F30;
+        width:0%;
+        }
+        to {
+            left:10px;
+            background-color:#06C;
+            width:95%;
+        }
+    }
+    #anima_4{
+        width:95%;
+        height:auto;
+    }
+
+}/*Fin media 2*/
