@@ -1,0 +1,13 @@
+    *URL del sitio online:
+    https://homepagechristian.000webhostapp.com/proyecto/index.html
+    *Detalle de implementación de la consigna 
+    --Secciones desarrolladas:
+    Inicio,nosotros,servicios,contacto
+    Aplicacion del DOM:
+    -Se aplica el DOM en las 4 secciones desarrolladas para cambiar la apariencia de las paginas
+    si se selecciona el modo nocturno
+    -Se usan los vectores para seleccionar todos los nodos de las cajas que contienen texto y el texto respectivo
+    ,tambien para seleccionar los enlaces.
+    -Se usan los condicionales para seleccionar el modo nocturno, y para corregir errores
+    en caso de no poder encontrar algun elemento cuando de utiliza getElementBy..
+   

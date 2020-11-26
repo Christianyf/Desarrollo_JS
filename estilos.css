@@ -246,6 +246,7 @@ footer{
     box-sizing: border-box;
 }
 #txt_partner{
+    position: relative;
     text-align: center;
     width: 400px;
     height: 50px;
@@ -259,8 +260,11 @@ footer{
     border-radius: 10px;
     font-family:'Lobster Two', cursive ;
     font-size: x-large;
+    top: -510px;
 }
 #img_partner{
+    clear: both;
+    position: relative;
     width: 800px;
     height: 80px;
     background-color: rgb(121, 153, 223);;
@@ -270,6 +274,7 @@ footer{
     padding-top: 5px;
     box-sizing: border-box;
     border-radius: 10px;
+    top: -510px;
 }
 #img_partner ul{
     margin: 0px;
@@ -285,20 +290,21 @@ footer{
     font-size: large;
 }
 #main_banner{
-    position: absolute;
+    clear: both;
+    float: left;
+    position: relative;
     text-align: center;
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     width: 220px;
     height: 510px;
     background-color: rgb(121, 153, 223);
     font-family:'Lobster Two', cursive ;
-    left: 928px;
-    top: 570px;
+    font-size: xx-large;
+    left: 730px;/*730*/
+    top: -780px;/*470*/
     padding: 25px;
-    margin-right: 10px;
-    margin-top: 10px;
-    border-radius: 10px;
     box-sizing: border-box;
+    border-radius: 10px;
 }
 @keyframes movimiento-texto {
     from {
@@ -310,6 +316,8 @@ footer{
     }
  }
  #main_banner h2{
+ 
+     box-sizing: border-box;
    animation-name: movimiento-texto;
    animation-duration: 5s;
    animation-iteration-count: infinite;
@@ -318,15 +326,23 @@ footer{
  } 
 
 /***********************************************/
-#contacto{
+#contacto , #contacto_2{
+    clear: both;
+    position: relative;
     text-align: center;
     width: 450px;
     height: 200px;
     float: left;
     margin-left: 20px;
     margin-top: 10px;
+    /*top: -350px;*/
 }
-#links{
+#contacto,#links,#rights{
+    top: -350px;
+}
+#links , #links_2{
+    
+    position: relative;
     text-align: center;
     width: 450px;
     height: 200px;
@@ -335,14 +351,19 @@ footer{
     margin-top: 10px;
     margin-left: 20px;
     margin-bottom: 10px;
+    
 }
-#rights{
+
+#rights , #rights_2{
+    position: relative;
     text-align: center;
     background-color: rgb(61, 139, 129);
     clear: both;
     margin-left: auto;
     margin-right: auto;
+    
 }
+
 /*****************Pagina contacto******************************/
 #contacto_img{
     width: 450px;
@@ -705,9 +726,12 @@ footer{
     .link_button{
         top: 150px;
     }
-    
+    #txt_partner{
+        top: 0px;
+    }
     #img_partner{
         width: 560px;
+        top: 0px;
     }
     
   
@@ -719,17 +743,22 @@ footer{
         display: none;
     }
     /***********************************************/
-    #contacto{
+    #contacto, #contacto_2{
         
         width: 560px;
         height: 100px;
         margin-top: 0px;
+        top: 0px;
     }
-    #links{
+    #links, #links_2{
         
         width: 560px;
         height: 150px;
         margin-bottom: 0px;
+        top: 0px;
+    }
+    #rights,#rights_2{
+        top: 0px;
     }
 
     /*****************Pagina contacto******************************/
@@ -944,9 +973,13 @@ footer{
         width: 95%;
         height: auto;
     }
+    #txt_partner{
+        top: 0px;
+    }
     #img_partner{
         width: 95%;
         height: auto;
+        top: 0px;
     }
 
     #img_partner ul li p{
@@ -958,25 +991,29 @@ footer{
     }
 
     /***********************************************/
-    #contacto{
+    #contacto,#contacto_2{
         width: 95%;
         height: auto;
         padding: 10px;
         box-sizing: border-box;
         margin-left: 0px;
         margin-top: 0px;
+        top: 0px;
     }
 
-    #links{
+    #links,#links_2{
        
         width: 95%;
         height: auto;
-        
+        top: 0px;
         margin-right: 0px;
         margin-top: 0px;
         margin-left: 0px;
         padding: 10px;
         box-sizing: border-box;
+    }
+    #rights,#rights_2{
+        top: 0px;
     }
     /*****************Pagina contacto******************************/
     #contacto_img{
