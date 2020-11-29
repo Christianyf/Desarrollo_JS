@@ -11,20 +11,37 @@
     <body>
         <header>
             <div class="img_marca">
-                <img src="logo_rodimax.png">
+                <img src="logo_rodimax.png" onclick="modoNocturno()" onmouseover="mostrarLista('bot_img')" onmouseout="ocultarLista('bot_img')">
+                <div class="cont_bot2" id="bot_img">
+                    <h4>Activar/Desactivar el modo nocturno</h4>
+                </div>
             </div>
             <nav class="bot_menu">
                 <ul style="list-style-type: none; margin: 0px; padding: 0px;">
-                    <li class="line_bot"><a href="index.html">Inicio</a></li>
                     <li class="line_bot">
-                        <a href="nosotros.html" class="block_bot">Nosotros</a>
-                        <div class="cont_bot">
-                            <a href="#">Uno</a>
-                            <a href="#">Dos</a>
+                        <a href="index.html" onmouseover="mostrarLista('bot1')" onmouseout="ocultarLista('bot1')">Inicio</a>
+                        <div class="cont_bot" id="bot1">
+                            <h4>Bienvenido!</h4>
                         </div>
                     </li>
-                    <li class="line_bot"><a href="servicios.html">Servicios</a></li>
-                    <li class="line_bot"><a href="contacto.html">Contacto</a></li>
+                    <li class="line_bot">
+                        <a href="nosotros.html" class="block_bot" onmouseover="mostrarLista('bot')" onmouseout="ocultarLista('bot')">Nosotros</a>
+                        <div class="cont_bot" id="bot" >
+                            <h4>Conoce más sobre nosotros</h4>
+                        </div>
+                    </li>
+                    <li class="line_bot">
+                        <a href="servicios.html" class="block_bot" onmouseover="mostrarLista('bot2')" onmouseout="ocultarLista('bot2')">Servicios</a>
+                        <div class="cont_bot" id="bot2">
+                            <h4>Descubre lo que ofrecemos para ti</h4>
+                        </div>
+                    </li>
+                    <li class="line_bot">
+                        <a href="contacto.html" onmouseover="mostrarLista('bot3')" onmouseout="ocultarLista('bot3')">Contacto</a>
+                        <div class="cont_bot" id="bot3">
+                            <h4>Dejanos tus preguntas y comentarios</h4>
+                        </div>
+                    </li>
                 </ul>
             </nav>
             <nav class="bot_social">
