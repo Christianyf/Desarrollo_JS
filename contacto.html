@@ -36,11 +36,11 @@
             <div id="contacto_form">
                 <form method="POST" action="#">
                     <ul>
-                        <li>Nombre: <input type="text" name="nombre" required></li>
-                        <li>Email: <input type="email" name="correo" required></li>
-                        <li>Teléfono: <input type="tel" name="telefono" required></li>
-                        <li>Mensaje: <textarea name="mensaje" rows="6" cols="30" required></textarea></li>
-                        <li><input type="submit"></li>
+                        <li><input type="text" id="nombre" placeholder="Nombre" pattern="[A-Za-z]{4}" maxlength="10" title="Solo letras [A-Z-a-z], tamaño minimo 4"></li>
+                        <li><input type="email" id="correo" placeholder="Email" title="ejemplo@mail.com"></li>
+                        <li><input type="tel" id="telefono" placeholder="Teléfono" title="54 11 22222222" pattern="[0-9]{12}"></li>
+                        <li><textarea name="mensaje" rows="6" cols="28" placeholder="Mensaje" required></textarea></li>
+                        <li><input type="submit" value="Enviar" id="envio"></li>
                     </ul>
                 </form>
             </div>
@@ -71,5 +71,6 @@
             </div>
         </footer>
         <script type="text/javascript" src="codigo.js"></script>
+        <script type="text/javascript" src="validacion.js"></script>
     </body>
 </html>
