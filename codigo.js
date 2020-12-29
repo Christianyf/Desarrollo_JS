@@ -15,7 +15,7 @@ function modoNocturno(){
             cajaTexto[i].style.backgroundColor="black"
         }
         var parrafos=document.getElementsByTagName("p")
-        for(i=1;i<parrafos.length-1;i++){
+        for(i=0;i<parrafos.length-1;i++){//para los parrafos
             parrafos[i].style.color="white"
         }
         var textoH3=document.getElementsByTagName("h3")

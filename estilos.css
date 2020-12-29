@@ -5,7 +5,7 @@ header,section,footer{
     margin-left: auto;
 }
 header{
-    height: 100px;
+    height: 120px;/*100*/
     background-color: rgb(95, 158, 160);
     border-radius: 10px;
 }
@@ -20,7 +20,7 @@ header{
     box-sizing: border-box;
 }
 #section_pg3{
-    height: 1240px;
+    height: 1850px;
     background-color: rgb(71, 174, 243);
 }
 #section_pg4{
@@ -57,17 +57,19 @@ footer{
     position: absolute;
     
     background-color: #f9f9f9;
-    width: 380px;
-    padding: 15px;
+    width: 300px;
+    padding: 5px;
     box-sizing: border-box;
     border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
 }
 .cont_bot2{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     width: 300px;
-    padding: 15px;
+    padding: 5px;
     box-sizing: border-box;
     border-radius: 10px;
     text-align: center;
@@ -119,19 +121,26 @@ footer{
 /***********************************************/
 #img_pres{
     width: 940px;
-    height: 450px;
-    background-image: url(3.jpg);
+    height: 450px;/*450px*/
+    /* background-image: url(3.jpg); */
     background-size: cover;
     background-position: center;
     float: left;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
+    
+}
+.slider img{
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
 }
 #fondo_pg1{
     position: absolute;
     width: 940px;
 }
+
 #txt_pres{
     position: absolute;
     text-align: center;
@@ -430,7 +439,7 @@ footer{
 }
 .contenido_nos{
     width: 940px;
-    height: 400px;
+    height: 400px;/*400px*/
     background-color: rgb(78, 90, 88);
     float: left;
     margin-left: 10px;
@@ -513,6 +522,55 @@ footer{
     padding: 40px;
     border-radius: 20px;
 }
+#reproductor{
+    width: 720px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    /* margin: 20px auto; */
+    padding: 10px;
+    background: #999999;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    } 
+    #botones ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        width: 200px;
+    }
+    #botones ul li{
+        display: inline;
+        
+    }
+    #botones ul li a{
+        font-size: 20px;
+        
+    }
+    #botones{
+        margin-top: 10px;
+    }
+    #barra{
+         position: relative; 
+        top: -25px;
+        left: 110px;
+        clear: both;
+        /* float: left; */
+        width: 600px;
+        height: 16px;
+        padding: 2px;
+        border: 1px solid #CCCCCC;
+        background-color: #EEEEEE;
+        border-radius:10px;
+        } 
+        
+        #progreso{
+        position: absolute;
+        width: 0px;
+        height: 16px;
+        background: rgba(0,0,150,.2);
+        border-radius:10px; 
+        }
 /*******************Pagina servicios****************************/
 #img_pres_4{
     width: 940px;
@@ -821,6 +879,18 @@ footer{
         width: 540px;
         padding: 30px;
     }
+    /***********video***********************/
+    #reproductor{
+        width: 520px;
+    } 
+    #medio{
+        width: 520px;
+    }
+ 
+    #barra{
+       
+        width: 410px;
+    } 
     /*******************Pagina servicios****************************/
     #img_pres_4{
         width: 560px;
@@ -945,6 +1015,7 @@ footer{
         float: none;
         top: 10px;
         margin-bottom: 10px;
+        margin-top: 35px;
     }
 
     #txt_pres{
@@ -1094,6 +1165,19 @@ footer{
         height: auto;
         margin-top: 100px;
     }
+/***********video***********************/
+    #reproductor{
+        width: 320px;
+    } 
+    #medio{
+        width: 320px;
+    }
+ 
+    #barra{
+       
+        width: 210px;
+    } 
+            
     /*******************Pagina servicios****************************/
     #img_pres_4{
         width: 95%;

@@ -7,6 +7,15 @@
         <link href="estilos.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet"> 
         
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
+        <script>
+            $(document).ready(function(){
+              $('.slider').bxSlider({auto:true});
+            });
+        </script>
     </head>
     <body>
         <header>
@@ -55,9 +64,15 @@
         <section id="section_pg1">
 
             <div id="img_pres">
-                <div id="txt_pres">
+                <!-- <div id="txt_pres">
                     <h1>Rodimax</h1>
                     <p>Empresa de control de plagas...</p>
+                </div> -->
+                <div class="slider">
+                    <div><img src="sl1.png"/></div>
+                    <div><img src="sl2.jpg"/></div>
+                    <div><img src="sl33.png"/></div>
+                    <div><img src="sl5.png"/></div>
                 </div>
             </div>
             <div id="img_serv1">

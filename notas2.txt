@@ -1,0 +1,21 @@
+    *URL del sitio online:
+    https://homepagechristian.000webhostapp.com/proyecto/index.html
+    *Detalle de implementación de la consigna 
+    --Secciones desarrolladas:
+    Inicio,nosotros,servicios,contacto
+    Aplicacion del DOM:
+    -Se aplica el DOM en las 4 secciones desarrolladas para cambiar la apariencia de las paginas
+    si se selecciona el modo nocturno
+    -Se usan los vectores para seleccionar todos los nodos de las cajas que contienen texto y el texto respectivo
+    ,tambien para seleccionar los enlaces.
+    -Se usan los condicionales para activar/desactivar el modo nocturno, y para corregir errores
+    en caso de no poder encontrar algun elemento cuando de utiliza getElementBy.
+    -Se usan funciones para activar/desactivar el modo nocturno al dar "click" sobre la imagen de icono
+    del encabezado. También para mostrar las etiquetas que aparecen al pasar el mouse sobre el icono y los 
+    botones de la botonera principal en la página de inicio(únicamente)
+    -Formulario validado en la sección contacto
+        Campo "Nombre" mediante pattern y funciones javascript
+        Campo "Email" mediante type=email y funciones javascript
+        Campo "Teléfono" mediante pattern
+        Campo "Mensaje" mediante el campo required
+    -Uso de la libreria Jquery "bxSlider" para implementar el slider de la pagina principal. 
